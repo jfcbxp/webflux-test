@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://${DB_USER:admin}:${DB_PASSWORD}@jfcbxp.utvb5cc.mongodb.net/${DB_NAME}?retryWrites=true&w=majority
+      autoIndexCreation: true
